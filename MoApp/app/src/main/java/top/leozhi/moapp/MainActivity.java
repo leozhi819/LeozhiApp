@@ -14,7 +14,6 @@ public class MainActivity extends BaseActivity
 {
 	private DrawerLayout mDrawerLayout;
 	private Toolbar mToolbar;
-	private ViewGroup contentLayout;
 	
 	private int mStatusBarColor;
     
@@ -26,7 +25,6 @@ public class MainActivity extends BaseActivity
 		
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mToolbar = (Toolbar) findViewById(R.id.toolbar);
-		contentLayout = (LinearLayout) findViewById(R.id.main);
 		setSupportActionBar(mToolbar);
 		
 		ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerLayout, mToolbar, R.string.navigation_drawer_open,
