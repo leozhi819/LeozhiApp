@@ -8,27 +8,11 @@
 	android:background="@color/white"
 	android:fitsSystemWindows="true">
 
-	<LinearLayout
-		android:id="@+id/main"
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:orientation="vertical">
-
-		<android.support.v7.widget.Toolbar
-			android:id="@+id/toolbar"
-			android:layout_width="match_parent"
-			android:layout_height="?attr/actionBarSize"
-			android:background="@color/colorPrimary"
-			app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-			app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="Text"/>
-
-	</LinearLayout>
-
+	<include
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+	
 	<android.support.design.widget.NavigationView
 		android:id="@+id/navigation"
 		android:layout_width="wrap_content"

@@ -4,4 +4,8 @@
     <string name="app_name">拾 忆</string>
 	<string name="navigation_drawer_open">navigation_drawer_open</string>
     <string name="navigation_drawer_close">navigation_drawer_close</string>
+	
+	<string name="tab_title_main_1">一首</string>
+    <string name="tab_title_main_2">诗词</string>
+    <string name="tab_title_main_3">心情</string>
 </resources>
